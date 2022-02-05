@@ -23,4 +23,4 @@ f= open("password.txt","w+")
 f.write(password)
 f.close()
 
-print('Your password, ' + password + ' has been saved in the file password.txt')
+print("Your password, " + "'" + password + "'" + " has been saved in the file password.txt")
